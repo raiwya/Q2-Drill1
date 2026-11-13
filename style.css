@@ -1,0 +1,23 @@
+body {
+    background-image: url(texture3.jpg) ;
+}
+
+.container {
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 8px;
+}
+
+.row {
+border-radius: 8px;
+gap: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
